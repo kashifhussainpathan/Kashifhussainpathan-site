@@ -1,45 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
-body{
-font-family: 'poppins', sans-serif;
-margin: 0px;
-max-width: 85%;
-
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    max-width: 85%;
 }
 
-:root{
+:root {
     --primary-color: #059669;
     --off-white: #f3f4f6;
     --dark-gray: #6b7280;
 }
 
-    /* container */
+/* container */
 
 .container {
     padding: 0rem 1rem;
 }
-    
- .container-center{
+
+.container-center {
     max-width: 600px;
     margin: auto;
- }
-
- /* navigation */
-.navigation { 
-    background-color: var(--primary-color);
-    color: black;
-    padding: 1rem;
-    color: black;
-}
-.nav-brand{
- color: black;
 }
 
-.link{
+
+.link {
     text-decoration: none;
-    padding: 0rem 1rem;  
+    padding: 0.5rem 1rem;
 }
 
-.link{
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: none;
+}
 
+.link-secondary {
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+/* Lists */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.nav-brand {
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    padding: 2rem;
+
+}
+
+.hero-img {
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero-heading-highlight {
+    color: var(--primary-color);
+}
+
+.section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.off-white {
+    background-color: var(--off-white);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+.footer-header{
+    color: white;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
