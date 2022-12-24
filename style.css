@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@100;400;700&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    max-width: 85%;
+    font-family: 'poppins', sans-serif;
+    margin: 0px auto;
+    max-width: 80%;
+    width: 100%;
 }
 
 :root {
@@ -12,14 +13,21 @@ body {
     --dark-gray: #6b7280;
 }
 
+/* margin */
+.margin-md {
+    margin-top: 2rem;
+}
+
 /* container */
 
 .container {
     padding: 0rem 1rem;
+    width: auto;
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 900px;
+    width: 100%;
     margin: auto;
 }
 
@@ -32,17 +40,16 @@ body {
 .link-primary {
     background-color: var(--primary-color);
     color: white;
-    border-radius: 0.5rem;
-    text-transform: uppercase;
+    border-radius: 2rem;
     font-weight: 400;
     border: none;
 }
 
 .link-secondary {
     border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: var(--primary-color);
-    text-transform: uppercase;
+    margin: 1rem;
 }
 
 /* Lists */
@@ -85,6 +92,7 @@ body {
 /* Hero */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 
 }
 
@@ -110,13 +118,16 @@ body {
 
 .off-white {
     background-color: var(--off-white);
-    border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 80%;
+    margin: auto;
+    padding: 0.5rem;
 }
 
 /* Footer */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     margin-top: 2rem;
     text-align: center;
@@ -125,14 +136,59 @@ body {
     padding: 1rem;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
-.footer-header{
+
+.footer-header {
     color: white;
     font-weight: 700;
     padding-top: 1rem;
+    font-size: large;
 }
-.footer ul{
+
+.footer ul {
     padding-inline-start: 0px;
+}
+
+/* Showcase List */
+.showcase-list {
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.heading-code {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.showcase-list h1 {
+    margin: 0px;
+    font-size: 1.5em;
+}
+
+.showcase-list p {
+    margin-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+small {
+    font-size: smaller;
+    display: inline;
+    margin: 0;
+}
+
+/* blog */
+.blog-content {
+    text-align: justify;
+    padding-bottom: 0.5rem;
+}
+
+.blogs h1 {
+    margin-top: 2.5rem;
+    margin-bottom: 0px;
+
 }
