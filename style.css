@@ -69,9 +69,10 @@ body {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding-bottom: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    max-height: 142px;
 }
 
 .navigation .link {
@@ -80,7 +81,7 @@ body {
 
 .nav-brand {
     font-weight: bold;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
 }
 
 .nav-pills {
@@ -95,7 +96,7 @@ body {
 .hero {
 
     padding-top: 4rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 
 }
 
@@ -199,7 +200,15 @@ small {
     margin-top: 2.5rem;
     margin-bottom: 0px;
 }
-.blog_h2{
+
+.blog_h2 {
     margin-top: 0;
     margin-bottom: 0.5rem;
+}
+
+.profile_img {
+    width: 70px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0rem 1rem;
 }
