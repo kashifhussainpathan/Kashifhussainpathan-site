@@ -3,7 +3,6 @@
 body {
     font-family: 'poppins', sans-serif;
     margin: 0px auto;
-    max-width: 90%;
     width: 100%;
 }
 
@@ -72,7 +71,8 @@ body {
     padding-bottom: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    max-height: 142px;
+    margin: auto;
+    width: auto;
 }
 
 .navigation .link {
@@ -82,19 +82,14 @@ body {
 .nav-brand {
     font-weight: bold;
     padding-top: 2rem;
-    padding-bottom: 1rem;
     display: inline-block;
 }
 
 .nav-pills {
-    margin-top: 4rem;
-    text-align: right;
-    display: inline-block;
+    text-align:right ;
+    margin: 0;
 }
 
-.nav-align{
-    float: right;
-}
 
 .link-active {
     font-weight: bold;
@@ -223,7 +218,7 @@ small {
 }
 
 .profile_img {
-    width: 70px;
+    width: 50px;
     vertical-align: middle;
     display: inline-block;
     padding: 0rem 1rem;
