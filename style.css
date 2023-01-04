@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@100;400;700&display=swap');
 
+::selection {
+    background-color: var(--primary-color);
+    color: white;
+}
+
 body {
     font-family: 'poppins', sans-serif;
     margin: 0px auto;
@@ -244,4 +249,19 @@ small {
     margin: auto;
     width: auto;
     display: block;
+}
+
+.boxmodel {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+.back-btn {
+    margin: 2rem;
+}
+
+.link-back {
+    background-color: var(--dark-gray);
+    color: white;
 }
