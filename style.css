@@ -39,7 +39,8 @@ body {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
+    margin: 0rem 0.7rem;
 }
 
 .link-primary {
@@ -88,6 +89,7 @@ body {
     border-bottom-right-radius: 1rem;
     margin: auto;
     width: auto;
+    padding-right: 3rem;
 }
 
 .navigation .link {
@@ -278,6 +280,9 @@ small {
 .link-back {
     background-color: var(--dark-gray);
     color: white;
+    padding: 0em 0.5em;
 }
 
-
+.link-hover:hover {
+    border-bottom: 2px solid white;
+}
