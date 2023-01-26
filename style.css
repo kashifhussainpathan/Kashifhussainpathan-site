@@ -9,6 +9,7 @@ body {
     font-family: 'poppins', sans-serif;
     margin: 0px auto;
     width: 100%;
+    background-color:hsl(161, 94%, 99%) ;
 }
 
 :root {
@@ -41,7 +42,6 @@ body {
 .link {
     text-decoration: none;
     padding: 0.5rem 0rem;
-    margin: 0rem 0.7rem;
 }
 
 .link-primary {
