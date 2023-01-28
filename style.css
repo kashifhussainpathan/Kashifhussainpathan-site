@@ -9,7 +9,7 @@ body {
     font-family: 'poppins', sans-serif;
     margin: 0px auto;
     width: 100%;
-    background-color:hsl(161, 94%, 99%) ;
+    background-color: hsl(161, 94%, 99%);
 }
 
 :root {
@@ -122,28 +122,6 @@ body {
 
 }
 
-@media screen and (max-width: 500px) {
-    .nav-pill {
-        display: block;
-        margin-top: 0.7rem;
-    }
-
-    .nav-brand-name {
-        display: block;
-        margin-top: 0.5rem;
-    }
-
-    .nav-brand {
-        text-align: center;
-
-    }
-
-    .link-secondary {
-        display: block;
-        width: 35%;
-        margin: 1rem auto;
-    }
-}
 
 .link-active {
     font-weight: bold;
@@ -251,8 +229,9 @@ body {
     text-align: center;
     margin: 1rem auto;
 }
+
 @media (max-width: 500px) {
-    .showcase-list{
+    .showcase-list {
         padding-bottom: 1rem;
     }
 }
@@ -342,4 +321,21 @@ small {
 
 .link-hover:hover {
     border-bottom: 2px solid white;
+}
+@media (min-width: 350px) and (max-width: 450px) {
+    .link-secondary {
+        width: 40%;
+    }
+    .nav-brand-name {
+        display: block;
+        margin-top: 0.5rem;
+    }
+    .nav-brand {
+        text-align: center;
+
+    }
+    .nav-pill {
+        display: block;
+        margin-top: 0.7rem;
+    }
 }
