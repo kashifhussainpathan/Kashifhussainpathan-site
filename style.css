@@ -134,7 +134,7 @@ body {
     vertical-align: middle;
     display: inline-block;
     padding: 0rem 1rem;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 
@@ -230,7 +230,7 @@ body {
     margin: 1rem auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .nav-pill {
         display: block;
         margin-top: 0.7rem;
@@ -246,13 +246,32 @@ body {
 
     }
 
+    .project-detail{
+        margin-bottom: 1.5rem;
+    }
+
     .link-secondary {
-        display: block;
-        width: 40%;
-        margin: 1rem auto;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .showcase-list {
+        padding-bottom: 0.5rem;
+    }
+
+    .hero-img {
+        width: 90%;
+        margin: auto;
+    }
+    .hero-heading{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .hero-heading-highlight {
+        font-size: smaller;
     }
     .showcase-list{
-        padding-bottom: 0.5rem;
+        padding-bottom: 1.5rem;
     }
 }
 
