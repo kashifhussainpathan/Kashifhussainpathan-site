@@ -17,7 +17,7 @@ body {
     --color-primary-light: hsl(161, 94%, 33.33%);
     --off-white: hsl(220, 14%, 96%);
     --dark-gray: hsl(220, 9%, 46%);
-    --shadow: 0 1rem 2rem hsla(0,0%,70.6%,0.2);
+    --shadow: 0 1rem 2rem hsla(0, 0%, 70.6%, 0.2);
 }
 
 
@@ -36,7 +36,8 @@ body {
 .container-center {
     max-width: 900px;
     width: 80%;
-    margin: auto;}
+    margin: auto;
+}
 
 
 .link {
@@ -45,12 +46,14 @@ body {
 }
 
 .link-primary {
+    display: inline-block;
     background-color: var(--primary-color);
     color: white;
     border-radius: 2rem;
     font-weight: 400;
     border: none;
     padding: 0.5rem 1.3rem;
+    margin-bottom: 0.5rem;
     transition: 0.3s;
 }
 
@@ -179,9 +182,21 @@ body {
     box-shadow: var(--shadow);
     border: 3px solid transparent;
 }
-.section:hover{
-    border: 3px solid var(--primary-color) ;
+
+.section:hover {
+    border: 3px solid var(--primary-color);
 }
+
+.home-section {
+    border-radius: 1rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
 /* .off-white {
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -233,10 +248,10 @@ body {
 
 /* Showcase List */
 .showcase-list {
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    border-radius: 1rem;
     padding: 2rem 1rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -256,10 +271,6 @@ body {
     .nav-brand {
         text-align: center;
 
-    }
-
-    .project-detail {
-        margin-bottom: 1.5rem;
     }
 
     .link-secondary {
@@ -289,12 +300,14 @@ body {
         padding-bottom: 1.5rem;
     }
 }
-.project-heading{
+
+.project-heading {
     color: var(--dark-gray);
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
+
 .heading-code {
     text-align: center;
     padding-top: 1rem;
@@ -340,6 +353,12 @@ small {
 }
 
 /* blog page */
+.blog-img {
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
 .h2_head {
     text-align: center;
     margin-top: 2rem;
@@ -378,4 +397,26 @@ small {
 
 .link-hover:hover {
     border-bottom: 2px solid white;
+}
+
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+    color: white;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+}
+
+.show-link {
+    visibility: visible;
+    z-index: 100;
 }

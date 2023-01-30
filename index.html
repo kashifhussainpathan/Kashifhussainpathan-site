@@ -5,12 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
   <link rel="stylesheet" href="style.css">
   <title>Home | Kashif Hussain Pathan</title>
 </head>
 
 <body>
-  <nav class="navigation container nav-container">
+  <nav class="navigation container nav-container" id="home">
       <div class="nav-brand"> <img class="profile_img" src="images/profile.jpg" alt="profile_image"> <span
           class="nav-brand-name">Kashif Hussain Pathan</span>
       </div>
@@ -34,15 +38,15 @@
     </h1>
   </header>
 
-  <section class="section showcase-list">
+  <section class="section home-section">
     <div class="container container-center">
-      <h2 class="tech"> Technologies</h2>
+      <h2 class="blog_h2"> Technologies</h2>
       <p class="tech-details">I'm familiar with HTML5, CSS3, Git, JavaScript, ReactJS, and Web Hosting</p>
     </div>
 
   </section>
 
-  <section class="section showcase-list">
+  <section class="section home-section">
     <div class=" container container-center">
       <h2 class="blog_h2"> Projects</h2>
       <p class="project-detail">I like to showcase my work and thus, you can see my projects hosted online</p>
@@ -51,7 +55,7 @@
 
   </section>
 
-  <section class="section showcase-list">
+  <section class="section home-section">
     <div class="container container-center">
       <h2 class="blog_h2"> Blogs</h2>
       <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
@@ -75,6 +79,9 @@
     </ul>
     <p class="copyright"> &copy; Kashif Hussain Pathan. <span id="year"> </span> All rights reserved.</p>
   </footer>
+  <a class="scroll-link top-link" href="#home">
+    <i class="fas fa-arrow-up"></i>
+  </a>
   <script src="app.js"></script>
 </body>
 
