@@ -194,6 +194,7 @@ body {
     padding: 0.5rem 1rem;
     box-shadow: var(--shadow);
     border: 3px solid transparent;
+    transition: all .4s ease-in-out
 }
 
 .section:hover {
